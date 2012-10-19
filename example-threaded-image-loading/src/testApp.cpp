@@ -10,7 +10,7 @@ public:
 	
 	void threadedFunction()
 	{
-		ofxOpenGLContextScope scope; // clash if commented out
+		ofxOpenGLContextScope scope; // crash if commented out
 		
 		image.loadImage("ofw-logo.png");
 		
